@@ -1,0 +1,50 @@
+# Android Studio / IntelliJ IDEA
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Gradle
+.gradle/
+**/build/
+.kotlin/
+
+# Local configuration
+local.properties
+*.local
+
+# Firebase configuration
+google-services.json
+**/google-services.json
+
+# Firebase Admin credentials / Service accounts
+*service-account*.json
+*serviceAccountKey*.json
+*firebase-adminsdk*.json
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.pem
+*.p12
+
+# Android build outputs
+*.apk
+*.aab
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
